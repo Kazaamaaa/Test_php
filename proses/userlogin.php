@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 // cek apakah tombol login ditekan
 if (isset($_POST['formlogin'])) {
     // pemanggilan file dbconfig
@@ -17,8 +19,8 @@ if (isset($_POST['formlogin'])) {
         $enc_pass = md5($password);
         // cek apakah password benar
         if ($enc_pass == $data['password']) {
-            // masuk ke halaman dashboard
-            header('location: ../index.php');
+            // masuk ke halaman tampil
+            header('location: ../Tampil.php');
         }
         // jika password salah
         else {

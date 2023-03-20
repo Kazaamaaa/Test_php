@@ -11,7 +11,7 @@ $hasil = mysqli_fetch_assoc(
 // jika ada data user tersimpan
 if ($hasil) {
     // alihkan ke halaman login
-    header('location: login.php?err=3');
+    header('location: ../login.php?err=3');
     exit();
 }
 mysqli_close($koneksi);

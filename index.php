@@ -1,5 +1,5 @@
-<?php include('include/head.php') ?>
-<?php include('include/navbar.php') ?>
+<?php include('include/head.php'); ?>
+<?php include('include/navbar.php'); ?>
 
 <div class="jumbotron">
 	<h1 class="display-4">GAJI KARYAWAN</h1>

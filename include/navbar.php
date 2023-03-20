@@ -7,22 +7,10 @@
 		<ul class="navbar-nav mr-auto">
 			<?php if (isset($_SESSION['user'])) : ?>
 				<li class="nav-item">
-					<a class="nav-link" href="Dashboard.php">Dashboard</a>
-				</li>
-			<?php endif; ?>
-			<?php if (isset($_SESSION['user'])) : ?>
-				<li class="nav-item">
 					<a class="nav-link" href="tampil.php">Data Gaji</a>
 				</li>
-			<?php endif; ?>
-			<?php if (isset($_SESSION['user'])) : ?>
 				<li class="nav-item">
 					<a class="nav-link" href="pencarian.php">Pencarian</a>
-				</li>
-			<?php endif; ?>
-			<?php if (isset($_SESSION['user'])) : ?>
-				<li class="nav-item">
-					<a class="nav-link" href="jabatan.php">DataJabatan</a>
 				</li>
 			<?php endif; ?>
 		</ul>

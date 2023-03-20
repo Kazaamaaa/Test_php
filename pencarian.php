@@ -1,4 +1,5 @@
 <?php include('include/head.php') ?>
+<?php require_once('proses/otentikasi.php'); ?>
 <?php include('include/navbar.php') ?>
 
 <div class="container">
